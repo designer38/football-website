@@ -3,6 +3,15 @@
         background-color: white;
         border:solid $redcolor 3px;
         margin:2rem;
+        
+        height:100px;
+      
+       
+        
+    }
+    .text-overlap-box{
+        background-color: white;
+      
     }
    
     .main-text {
@@ -11,12 +20,12 @@
         font-family: "lato";
         font-weight: 700;
         color: $redcolor;
-        
+      
         text-align: center;
         
     }
     .history-content{
        text-align: center;
-        
+       
     }
 }

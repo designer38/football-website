@@ -6065,7 +6065,7 @@ body {
   margin: 0 auto;
   padding: 0; }
   body .homelink {
-    margin-left: 9rem; }
+    margin-left: 5rem; }
   body .top_section {
     background-image: url("bg.png");
     background-size: cover;
@@ -6097,7 +6097,7 @@ body {
     body nav a:focus {
       color: #C92127; }
     body nav .margin-link {
-      margin-left: 10rem; }
+      margin-left: 9rem; }
   body header {
     position: relative;
     background-image: url("picture.png");
@@ -6364,6 +6364,30 @@ footer .icon-style {
 footer .icon-style2 {
   padding-bottom: 20rem; }
 
+.header-bg {
+  width: 100%;
+  margin-top: 0.25rem;
+  background-image: url("bg naming.png");
+  background-size: cover;
+  background-color: #EAEAEA;
+  height: 50vh;
+  display: table; }
+  .header-bg .content-box {
+    display: table-cell;
+    vertical-align: middle; }
+    .header-bg .content-box .main-text {
+      font-size: 40px;
+      font-family: "lato";
+      font-weight: 700;
+      color: white;
+      padding-left: 7.5rem; }
+    .header-bg .content-box p {
+      font-size: 30px;
+      font-family: "lato";
+      font-weight: "regular";
+      color: white;
+      padding-left: 7.5rem; }
+
 .about-section {
   background-color: #EAEAEA; }
   .about-section .main-text {
@@ -6410,7 +6434,11 @@ footer .icon-style2 {
 .history-section .history-box {
   background-color: white;
   border: solid #C92127 3px;
-  margin: 2rem; }
+  margin: 2rem;
+  height: 100px; }
+
+.history-section .text-overlap-box {
+  background-color: white; }
 
 .history-section .main-text {
   background-color: white;
@@ -6422,3 +6450,122 @@ footer .icon-style2 {
 
 .history-section .history-content {
   text-align: center; }
+
+.news {
+  background-color: #EAEAEA; }
+  .news .small-card {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 2rem; }
+    .news .small-card .text-red {
+      color: #C92127; }
+    .news .small-card img {
+      width: 30%;
+      height: 30%;
+      margin-right: 1rem;
+      border-radius: 12px; }
+  .news .main-header {
+    font-family: "lato";
+    font-weight: 600;
+    font-size: 20px;
+    color: #C92127; }
+  .news hr {
+    width: 15%;
+    border-color: #C92127;
+    margin-bottom: 2rem; }
+  .news .forward-link {
+    border: none;
+    font-family: "lato";
+    font-weight: "regular";
+    color: #C92127;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: transparent;
+    float: right; }
+  .news .box-style {
+    width: 430px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    height: 500px; }
+    .news .box-style .card-body::before {
+      content: "JAN";
+      color: #C92127; }
+    .news .box-style .card-body {
+      display: table; }
+    .news .box-style .date {
+      display: table-cell;
+      vertical-align: middle; }
+      .news .box-style .date .day {
+        font-family: "lato";
+        font-weight: 700;
+        color: #C92127;
+        font-size: 50px;
+        margin-left: -42px; }
+    .news .box-style .date2 {
+      display: table-cell;
+      margin-right: 7px; }
+      .news .box-style .date2 .month {
+        font-family: "lato";
+        font-weight: "regular";
+        color: #C92127;
+        font-size: 16px; }
+    .news .box-style img {
+      max-width: 100%;
+      border-radius: 12px 12px 0px 0px;
+      -moz-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+    .news .box-style img:hover {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+  .news .box-style2 {
+    width: 400px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    height: 520px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    overflow: hidden; }
+    .news .box-style2 .card-body {
+      padding-left: 1.5rem; }
+    .news .box-style2 .top-text {
+      color: #C92127;
+      padding-left: 1rem; }
+    .news .box-style2 .card-body::before {
+      content: "JAN";
+      color: #C92127; }
+    .news .box-style2 .card-body {
+      display: table; }
+    .news .box-style2 .date {
+      display: table-cell;
+      vertical-align: middle; }
+      .news .box-style2 .date .day {
+        font-family: "lato";
+        font-weight: 700;
+        color: #C92127;
+        font-size: 50px;
+        margin-left: -42px; }
+    .news .box-style2 .date2 {
+      display: table-cell;
+      margin-right: 7px; }
+      .news .box-style2 .date2 .month {
+        font-family: "lato";
+        font-weight: "regular";
+        color: #C92127;
+        font-size: 16px; }
+    .news .box-style2 img {
+      max-width: 100%;
+      -moz-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+    .news .box-style2 img:hover {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
