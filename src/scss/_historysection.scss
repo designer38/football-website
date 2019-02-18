@@ -1,61 +1,63 @@
 .history-section {
     background-color: $lightcolor;
     text-align: center;
+    h2 {
+           
+        
+        
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "lato";
+        font-weight: 700;
+        color: $redcolor;
+        font-size: 30px;
+        
+    }
+    h2:before { right:10%; }
+    h2:after { right:10%; }
     .history-box{
-        width:60%;
-       
+        
+       padding:5rem;
         background-color: white;
-        margin:5rem;
+        
        
-        h2 {
+       
+        // h2.no-span {
+        //     display: table;
+        //     white-space: nowrap;
+        //     &:before, &:after {
+        //       border-top: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
+        //     &:before { right:10%; }
+        //     &:after { left: 10%; }
+        // }
+        // h2.no-span2 {
+        //     display: table;
+        //     white-space: nowrap;
+        //      &:after {
+        //       border-right: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
            
-            font: 33px sans-serif;
-            
-            text-align: center;
-            text-transform: uppercase;
-            font-family: "lato";
-            font-weight: 700;
-            color: $redcolor;
-            font-size: 30px;
-            z-index: 1;
-        }
-        h2.no-span {
-            display: table;
-            white-space: nowrap;
-            &:before, &:after {
-              border-top: 2px solid $redcolor;
-              content: '';
-              display: table-cell;
-              position: relative;
-              top: 0.5em;
-              width: 45%;
-            }
-            &:before { right:10%; }
-            &:after { left: 10%; }
-        }
-        h2.no-span2 {
-            display: table;
-            white-space: nowrap;
-             &:after {
-              border-right: 2px solid $redcolor;
-              content: '';
-              display: table-cell;
-              position: relative;
-              top: 0.5em;
-              width: 45%;
-            }
-           
-        }
+        // }
         
             
             
             .history-content {
                 text-align: center;
-                z-index: -1;
+                
          
-            border-left: solid $redcolor 2px;
-            border-right: solid $redcolor 2px;
-            border-bottom: solid $redcolor 2px;
+            border: solid $redcolor 2px;
+            
             }
     }
    
