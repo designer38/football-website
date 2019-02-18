@@ -21,10 +21,11 @@
            
             
         }
-        p{
+        .italic-style{
             font-size: 30px;
             font-family: "lato";
             font-weight: "regular";
+            font-style: italic;
             color: white;
             padding-left: 7.5rem;
            
@@ -35,7 +36,7 @@
 }
 
 .about-section {
-    background-color: $lightcolor;
+    background-color: white;
     .main-text {
         font-size: 30px;
         font-family: "lato";
@@ -45,11 +46,11 @@
         padding-left: 7.5rem;
     }
     .main-text2 {
-        font-size: 30px;
-        font-family: "lato";
-        font-weight: "regular";
-        color: white;
-        padding-left: 7.5rem;
+        font-size: 26px;
+    font-family: "lato";
+    font-weight: "regular";
+    color: white;
+    padding-left: 8.5rem;
     }
     .content-text {
         font-size: 18px;
@@ -60,7 +61,7 @@
         margin-left: 2rem;
     }
     .content-text2 {
-        font-size: 18px;
+        font-size: 16px;
         font-family: "lato";
         font-weight: "regular";
         color: white;
@@ -73,14 +74,24 @@
         margin-left: 7rem;
     }
     .right-section {
+        height:70%;
+        padding-top:5rem;
         background-color: $redcolor;
         -webkit-clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
         clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
-        padding-top: 10rem;
-        padding-left: 2rem;
-        padding-bottom: 2rem;
+        display: table;
+        .pic-text-style{
+            display:table-cell;
+            vertical-align: middle;
+        }
     }
     .left-section {
-        margin-top: 4rem;
+       
+       
+       
+        
     }
+}
+.parent-section{
+    background-color: $lightcolor;
 }
