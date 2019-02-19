@@ -35,61 +35,64 @@
     
 }
 
-.about-section {
-    background-color: white;
-    .main-text {
-        font-size: 30px;
-        font-family: "lato";
-        font-weight: 700;
-        color: $redcolor;
-        padding-top: 6rem;
-        padding-left: 7.5rem;
+.about{
+    .carousel-control-prev-icon {
+        background-image: url("left-arrow-chevron (2).png");
+        background-color:$redcolor;
+        padding:2rem;
+        margin-bottom: 19rem;
+        margin-left:2rem;
     }
-    .main-text2 {
-        font-size: 26px;
-    font-family: "lato";
-    font-weight: "regular";
-    color: white;
-    padding-left: 8.5rem;
+    .carousel-control-next-icon {
+        margin-bottom: 19rem;
+        background-image: url("right-chevron.png");
+        background-color:$redcolor;
+        padding:2rem;
     }
-    .content-text {
-        font-size: 18px;
-        font-family: "lato";
-        font-weight: "regular";
-        color: $darkcolor;
-        width: 300px;
-        margin-left: 2rem;
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width:20px;
+        height: 20px;
+        
+        
     }
-    .content-text2 {
-        font-size: 16px;
-        font-family: "lato";
-        font-weight: "regular";
-        color: white;
-        width: 300px;
-        margin-left: 2rem;
-    }
-    .img-content {
-        width: 200px;
-        height: 200px;
-        margin-left: 7rem;
-    }
-    .right-section {
-        height:70%;
-        padding-top:7rem;
-        background-color: $redcolor;
-        -webkit-clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
-        clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
-        display: table;
-        .pic-text-style{
-            display:table-cell;
-            vertical-align: middle;
+    .right-section{
+        -webkit-clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+    background-color: #C92127;
+    padding-right: 30px;
+    padding-left: 109px;
+    padding-top: 5rem;
+    
+        figure {
+           
+            text-align:center;
+         font-weight:bold;
+            margin: 0.5em;
+            padding: 0.5em;
+          }
+        .text-photo{
+
+width:100%;
         }
     }
-    .left-section {
-       
-       
-       
+    .left-section{
         
+    
+    padding-right: 30px;
+    padding-left: 109px;
+    padding-top: 5rem;
+    
+        figure {
+           
+            text-align:center;
+         font-weight:bold;
+            margin: 0.5em;
+            padding: 0.5em;
+          }
+        .text-photo{
+
+width:100%;
+        }
     }
 }
 .parent-section{

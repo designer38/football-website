@@ -1,7 +1,9 @@
 body {
     position: relative;
-    margin: 0 auto;
-    padding: 0;
+    border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
     .homelink{
         margin-left: 5rem;
     }
@@ -10,6 +12,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        
         .left_logo {
             margin-left: 7rem;
             margin-top: 1rem;
@@ -23,11 +26,16 @@ body {
     nav {
         height: 100px;
         background-color: rgba(41, 41, 41, .5);
-        text-align: center;
+        margin-left:7rem;
         border-top: solid $lightcolor 2px;
-        margin-top: 1rem;
-        margin-right: 7rem;
-        margin-left: 7rem;
+        width:83%;
+        .home-margin{
+            margin-left:2rem;
+        }
+        .link-margin{
+            margin-left:6rem;
+        }
+        
         a {
             font-family: "lato";
             font-weight: "regular";
@@ -45,6 +53,7 @@ body {
             margin-left: 9rem;
         }
     }
+    
     header {
         position: relative;
         background-image: url("picture.png");

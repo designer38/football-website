@@ -6062,7 +6062,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   position: relative;
-  margin: 0 auto;
+  border: 0;
+  vertical-align: baseline;
+  margin: 0;
   padding: 0; }
   body .homelink {
     margin-left: 5rem; }
@@ -6081,11 +6083,13 @@ body {
   body nav {
     height: 100px;
     background-color: rgba(41, 41, 41, 0.5);
-    text-align: center;
+    margin-left: 7rem;
     border-top: solid #EAEAEA 2px;
-    margin-top: 1rem;
-    margin-right: 7rem;
-    margin-left: 7rem; }
+    width: 83%; }
+    body nav .home-margin {
+      margin-left: 2rem; }
+    body nav .link-margin {
+      margin-left: 6rem; }
     body nav a {
       font-family: "lato";
       font-weight: "regular";
@@ -6389,49 +6393,49 @@ footer .icon-style2 {
       color: white;
       padding-left: 7.5rem; }
 
-.about-section {
-  background-color: white; }
-  .about-section .main-text {
-    font-size: 30px;
-    font-family: "lato";
-    font-weight: 700;
-    color: #C92127;
-    padding-top: 6rem;
-    padding-left: 7.5rem; }
-  .about-section .main-text2 {
-    font-size: 26px;
-    font-family: "lato";
-    font-weight: "regular";
-    color: white;
-    padding-left: 8.5rem; }
-  .about-section .content-text {
-    font-size: 18px;
-    font-family: "lato";
-    font-weight: "regular";
-    color: #1C1C1C;
-    width: 300px;
-    margin-left: 2rem; }
-  .about-section .content-text2 {
-    font-size: 16px;
-    font-family: "lato";
-    font-weight: "regular";
-    color: white;
-    width: 300px;
-    margin-left: 2rem; }
-  .about-section .img-content {
-    width: 200px;
-    height: 200px;
-    margin-left: 7rem; }
-  .about-section .right-section {
-    height: 70%;
-    padding-top: 7rem;
-    background-color: #C92127;
-    -webkit-clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
-    clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
-    display: table; }
-    .about-section .right-section .pic-text-style {
-      display: table-cell;
-      vertical-align: middle; }
+.about .carousel-control-prev-icon {
+  background-image: url("left-arrow-chevron (2).png");
+  background-color: #C92127;
+  padding: 2rem;
+  margin-bottom: 19rem;
+  margin-left: 2rem; }
+
+.about .carousel-control-next-icon {
+  margin-bottom: 19rem;
+  background-image: url("right-chevron.png");
+  background-color: #C92127;
+  padding: 2rem; }
+
+.about .carousel-control-prev-icon, .about .carousel-control-next-icon {
+  width: 20px;
+  height: 20px; }
+
+.about .right-section {
+  -webkit-clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+  clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+  background-color: #C92127;
+  padding-right: 30px;
+  padding-left: 109px;
+  padding-top: 5rem; }
+  .about .right-section figure {
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    padding: 0.5em; }
+  .about .right-section .text-photo {
+    width: 100%; }
+
+.about .left-section {
+  padding-right: 30px;
+  padding-left: 109px;
+  padding-top: 5rem; }
+  .about .left-section figure {
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    padding: 0.5em; }
+  .about .left-section .text-photo {
+    width: 100%; }
 
 .parent-section {
   background-color: #EAEAEA; }
@@ -6461,15 +6465,15 @@ footer .icon-style2 {
   background-color: #EAEAEA; }
   .news .small-card {
     background-color: white;
-    width: 320px;
-    height: 300px;
+    width: 100%;
+    height: 230px;
     border-radius: 12px;
     padding: 2rem; }
     .news .small-card .text-red {
       color: #C92127; }
     .news .small-card img {
       width: 30%;
-      height: 30%;
+      height: 70%;
       margin-right: 1rem;
       border-radius: 12px; }
   .news .main-header {
@@ -6491,12 +6495,12 @@ footer .icon-style2 {
     background-color: transparent;
     float: right; }
   .news .box-style {
-    width: 475px;
+    width: 100%;
     background-color: white;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-    height: 500px; }
+    height: 400px; }
     .news .box-style .card-body::before {
       content: "JAN";
       color: #C92127; }
@@ -6530,12 +6534,12 @@ footer .icon-style2 {
       -webkit-transform: scale(1.1);
       transform: scale(1.1); }
   .news .box-style2 {
-    width: 470px;
+    width: 100%;
     background-color: white;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
-    height: 550px;
+    height: 520px;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     overflow: hidden; }
@@ -6918,6 +6922,147 @@ footer .icon-style2 {
       -moz-animation: inputHighlighter 0.3s ease;
       animation: inputHighlighter 0.3s ease; }
     .login-form .contact-form textarea:focus ~ .highlight {
+      -webkit-animation: inputHighlighter 0.3s ease;
+      -moz-animation: inputHighlighter 0.3s ease;
+      animation: inputHighlighter 0.3s ease; }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+.join-us {
+  background-color: #EAEAEA; }
+  .join-us .main-header {
+    font-family: "lato";
+    font-weight: 600;
+    font-size: 20px;
+    color: #C92127; }
+  .join-us hr {
+    width: 15%;
+    border-color: #C92127;
+    margin-bottom: 2rem; }
+  .join-us .contact-form {
+    /* LABEL ======================================= */
+    /* active state */
+    /* BOTTOM BARS ================================= */
+    /* active state */
+    /* HIGHLIGHTER ================================== */
+    /* active state */
+    /* ANIMATIONS ================ */ }
+    .join-us .contact-form .title {
+      color: #C92127;
+      font-family: lato;
+      text-align: center; }
+    .join-us .contact-form .contactform {
+      background-color: transparent;
+      overflow-y: auto;
+      padding: 3.5rem 3rem;
+      width: 100%; }
+    .join-us .contact-form .subbutton {
+      background-color: #C92127;
+      border: none;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      width: 50%;
+      padding: 6px 0;
+      border-radius: 0; }
+    .join-us .contact-form .btn-active {
+      text-align: left;
+      margin: 3rem 0 0rem;
+      padding-top: 1.8rem; }
+    .join-us .contact-form .group {
+      position: relative;
+      margin-bottom: 35px;
+      background-color: white;
+      border: none; }
+    .join-us .contact-form input,
+    .join-us .contact-form textarea {
+      font-size: 14px;
+      padding: 10px 10px 10px 5px;
+      display: block;
+      width: 100%;
+      border: none; }
+    .join-us .contact-form input:focus,
+    .join-us .contact-form textarea:focus {
+      outline: none; }
+    .join-us .contact-form label {
+      color: #999;
+      font-size: 16px;
+      font-weight: normal;
+      position: absolute;
+      pointer-events: none;
+      left: 5px;
+      top: 10px;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all; }
+    .join-us .contact-form input:focus ~ label,
+    .join-us .contact-form input:valid ~ label {
+      top: -20px;
+      font-size: 14px;
+      color: #C92127; }
+    .join-us .contact-form textarea:focus ~ label,
+    .join-us .contact-form textarea:valid ~ label {
+      top: -20px;
+      font-size: 14px;
+      color: #C92127; }
+    .join-us .contact-form .bar {
+      position: relative;
+      display: block;
+      width: 100%; }
+    .join-us .contact-form .bar:before,
+    .join-us .contact-form .bar:after {
+      content: '';
+      height: 2px;
+      width: 0;
+      bottom: 1px;
+      position: absolute;
+      background: #C92127;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all; }
+    .join-us .contact-form .bar:before {
+      left: 50%; }
+    .join-us .contact-form .bar:after {
+      right: 50%; }
+    .join-us .contact-form input:focus ~ .bar:before,
+    .join-us .contact-form input:focus ~ .bar:after {
+      width: 50%; }
+    .join-us .contact-form textarea:focus ~ .bar:before,
+    .join-us .contact-form textarea:focus ~ .bar:after {
+      width: 50%; }
+    .join-us .contact-form .highlight {
+      position: absolute;
+      height: 60%;
+      width: 100px;
+      top: 25%;
+      left: 0;
+      pointer-events: none;
+      opacity: 0.5; }
+    .join-us .contact-form input:focus ~ .highlight {
+      -webkit-animation: inputHighlighter 0.3s ease;
+      -moz-animation: inputHighlighter 0.3s ease;
+      animation: inputHighlighter 0.3s ease; }
+    .join-us .contact-form textarea:focus ~ .highlight {
       -webkit-animation: inputHighlighter 0.3s ease;
       -moz-animation: inputHighlighter 0.3s ease;
       animation: inputHighlighter 0.3s ease; }
