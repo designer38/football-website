@@ -6577,16 +6577,45 @@ footer .icon-style2 {
       transform: scale(1.1); }
 
 .news-details-style {
-  background-color: #EAEAEA; }
+  background-color: #EAEAEA;
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+  .news-details-style .main-header {
+    font-family: "lato";
+    font-weight: 600;
+    font-size: 20px;
+    color: #C92127; }
+  .news-details-style hr {
+    width: 55%;
+    border-color: #C92127;
+    margin-bottom: 2rem; }
+  .news-details-style .small-card {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    padding: 2rem; }
+    .news-details-style .small-card .text-red {
+      color: #C92127;
+      margin-right: 6rem; }
+    .news-details-style .small-card .content-text {
+      width: 200px; }
+    .news-details-style .small-card img {
+      width: 30%;
+      height: 100%;
+      margin-right: 1rem;
+      border-radius: 12px; }
+  .news-details-style .red-text {
+    font-family: "lato";
+    font-weight: 700;
+    color: #C92127; }
   .news-details-style .box-style {
     width: 700px;
     background-color: white;
     border-radius: 12px;
     position: relative;
-    overflow: hidden;
-    padding: 25px; }
+    overflow: hidden; }
     .news-details-style .box-style img {
-      width: 100%;
       max-width: 100%;
       border-radius: 12px 12px 0px 0px;
       -moz-transition: all 0.3s;
