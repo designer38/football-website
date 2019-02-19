@@ -6768,3 +6768,148 @@ footer .icon-style2 {
     .contact-us .gmap_canvas iframe {
       width: 100% !important;
       height: 50rem; }
+
+.login-form {
+  background-image: url("Mask Group 10.png");
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  text-align: center;
+  padding-top: 12rem; }
+  .login-form .main-text {
+    color: #C92127;
+    font-family: lato;
+    font-weight: 500; }
+  .login-form .contact-form {
+    /* LABEL ======================================= */
+    /* active state */
+    /* BOTTOM BARS ================================= */
+    /* active state */
+    /* HIGHLIGHTER ================================== */
+    /* active state */
+    /* ANIMATIONS ================ */ }
+    .login-form .contact-form .title {
+      color: #C92127;
+      font-family: lato;
+      text-align: center; }
+    .login-form .contact-form .contactform {
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 7px;
+      overflow-y: auto;
+      padding: 3.5rem 3rem;
+      width: 40%; }
+    .login-form .contact-form .subbutton {
+      background-color: #C92127;
+      border: none;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      width: 50%;
+      padding: 6px 0;
+      border-radius: 7px; }
+    .login-form .contact-form .btn-active {
+      text-align: center;
+      margin: 3rem 0 0rem;
+      padding-top: 1.8rem; }
+    .login-form .contact-form .group {
+      position: relative;
+      margin-bottom: 35px;
+      background-color: transparent;
+      border: solid #EAEAEA 1px;
+      border-radius: 7px; }
+    .login-form .contact-form input,
+    .login-form .contact-form textarea {
+      font-size: 14px;
+      padding: 10px 10px 10px 5px;
+      display: block;
+      width: 100%;
+      border: solid #EAEAEA 1px;
+      border-radius: 7px; }
+    .login-form .contact-form input:focus,
+    .login-form .contact-form textarea:focus {
+      outline: none; }
+    .login-form .contact-form label {
+      color: #999;
+      font-size: 16px;
+      font-weight: normal;
+      position: absolute;
+      pointer-events: none;
+      left: 5px;
+      top: 10px;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all; }
+    .login-form .contact-form input:focus ~ label,
+    .login-form .contact-form input:valid ~ label {
+      top: -20px;
+      font-size: 14px;
+      color: #C92127; }
+    .login-form .contact-form textarea:focus ~ label,
+    .login-form .contact-form textarea:valid ~ label {
+      top: -20px;
+      font-size: 14px;
+      color: #C92127; }
+    .login-form .contact-form .bar {
+      position: relative;
+      display: block;
+      width: 100%; }
+    .login-form .contact-form .bar:before,
+    .login-form .contact-form .bar:after {
+      content: '';
+      height: 2px;
+      width: 0;
+      bottom: 1px;
+      position: absolute;
+      background: #C92127;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all; }
+    .login-form .contact-form .bar:before {
+      left: 50%; }
+    .login-form .contact-form .bar:after {
+      right: 50%; }
+    .login-form .contact-form input:focus ~ .bar:before,
+    .login-form .contact-form input:focus ~ .bar:after {
+      width: 50%; }
+    .login-form .contact-form textarea:focus ~ .bar:before,
+    .login-form .contact-form textarea:focus ~ .bar:after {
+      width: 50%; }
+    .login-form .contact-form .highlight {
+      position: absolute;
+      height: 60%;
+      width: 100px;
+      top: 25%;
+      left: 0;
+      pointer-events: none;
+      opacity: 0.5; }
+    .login-form .contact-form input:focus ~ .highlight {
+      -webkit-animation: inputHighlighter 0.3s ease;
+      -moz-animation: inputHighlighter 0.3s ease;
+      animation: inputHighlighter 0.3s ease; }
+    .login-form .contact-form textarea:focus ~ .highlight {
+      -webkit-animation: inputHighlighter 0.3s ease;
+      -moz-animation: inputHighlighter 0.3s ease;
+      animation: inputHighlighter 0.3s ease; }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: #C92127; }
+  to {
+    width: 0;
+    background: transparent; } }
