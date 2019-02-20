@@ -1,5 +1,12 @@
 .join-us{
     background-color: $lightcolor;
+    width:100%;
+    
+    
+    .photo-height{
+        height:60%;
+        margin-top:10rem;
+    }
    
     .main-header{
         font-family: "lato";
@@ -27,8 +34,8 @@
             
             background-color: transparent;
             
-            overflow-y: auto;
-            padding: 3.5rem 3rem;
+            
+            
            width:100%;
             
         }
@@ -39,7 +46,7 @@
             text-decoration: none;
             font-size: 16px;
             margin: 4px 2px;
-            width: 50%;
+            width: 30%;
             padding: 6px 0;
             border-radius: 0;
         }

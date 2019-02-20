@@ -6103,69 +6103,70 @@ body {
     body nav .margin-link {
       margin-left: 9rem; }
   body header {
+    width: 100%;
     position: relative;
     background-image: url("picture.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 100vh;
+    display: table; }
     body header p {
       margin: 0em; }
     body header .box-content {
       padding-left: 7.5rem;
-      margin-top: -2em; }
-    body header .main-text {
-      font-size: 100px;
-      font-family: "lato";
-      font-weight: 700;
-      color: #C92127;
-      padding-top: 6rem;
-      padding-left: 7.5rem; }
-    body header .sub-text {
-      padding-top: 1rem;
-      font-size: 50px;
-      font-family: "lato";
-      font-weight: "regular";
-      color: #1C1C1C; }
-    body header .content {
-      width: 500px;
-      font-family: "lato";
-      font-weight: 600;
-      color: #1C1C1C; }
-    body header .button {
-      font-size: 20px;
-      font-family: "lato";
-      font-weight: "regular";
-      width: 200px;
-      padding: 12px 28px;
-      background-color: transparent;
-      border: solid white 3px;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer; }
-    body header .button:hover {
-      background-color: WHITE;
-      color: #1C1C1C; }
-    body header .button2 {
-      font-size: 20px;
-      font-family: "lato";
-      font-weight: "regular";
-      width: 200px;
-      padding: 12px 28px;
-      background-color: #C92127;
-      border: none;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer; }
-    body header .buttons-box {
-      padding-left: 7.5rem; }
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left; }
+      body header .box-content p {
+        margin: 0em; }
+      body header .box-content .main-text {
+        font-size: 100px;
+        font-family: "lato";
+        font-weight: 700;
+        color: #C92127; }
+      body header .box-content .sub-text {
+        font-size: 50px;
+        font-family: "lato";
+        font-weight: "regular";
+        color: #1C1C1C; }
+      body header .box-content .content {
+        width: 500px;
+        font-family: "lato";
+        font-weight: 600;
+        color: #1C1C1C; }
+      body header .box-content .button {
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: "regular";
+        width: 200px;
+        padding: 12px 28px;
+        background-color: transparent;
+        border: solid white 3px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; }
+      body header .box-content .button:hover {
+        background-color: WHITE;
+        color: #1C1C1C; }
+      body header .box-content .button2 {
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: "regular";
+        width: 200px;
+        padding: 12px 28px;
+        background-color: #C92127;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; }
     body header .left-arrow-style {
       position: absolute;
       top: 45%;
@@ -6352,8 +6353,11 @@ body {
     font-size: 45px;
     color: white; }
 
+footer .image-margin {
+  margin-bottom: -5px; }
+
 footer .text-box {
-  width: 300px;
+  width: 100%;
   font-size: 18px; }
 
 footer .main-header {
@@ -6828,7 +6832,6 @@ footer .icon-style2 {
     .login-form .contact-form .contactform {
       margin: 0 auto;
       background-color: white;
-      border-radius: 7px;
       overflow-y: auto;
       padding: 3.5rem 3rem;
       width: 40%; }
@@ -6841,7 +6844,7 @@ footer .icon-style2 {
       margin: 4px 2px;
       width: 50%;
       padding: 6px 0;
-      border-radius: 7px; }
+      border-radius: 0; }
     .login-form .contact-form .btn-active {
       text-align: center;
       margin: 3rem 0 0rem;
@@ -6850,16 +6853,14 @@ footer .icon-style2 {
       position: relative;
       margin-bottom: 35px;
       background-color: transparent;
-      border: solid #EAEAEA 1px;
-      border-radius: 7px; }
+      border: solid #EAEAEA 1px; }
     .login-form .contact-form input,
     .login-form .contact-form textarea {
       font-size: 14px;
       padding: 10px 10px 10px 5px;
       display: block;
       width: 100%;
-      border: solid #EAEAEA 1px;
-      border-radius: 7px; }
+      border: solid #EAEAEA 1px; }
     .login-form .contact-form input:focus,
     .login-form .contact-form textarea:focus {
       outline: none; }
@@ -6948,7 +6949,11 @@ footer .icon-style2 {
     background: transparent; } }
 
 .join-us {
-  background-color: #EAEAEA; }
+  background-color: #EAEAEA;
+  width: 100%; }
+  .join-us .photo-height {
+    height: 60%;
+    margin-top: 10rem; }
   .join-us .main-header {
     font-family: "lato";
     font-weight: 600;
@@ -6972,8 +6977,6 @@ footer .icon-style2 {
       text-align: center; }
     .join-us .contact-form .contactform {
       background-color: transparent;
-      overflow-y: auto;
-      padding: 3.5rem 3rem;
       width: 100%; }
     .join-us .contact-form .subbutton {
       background-color: #C92127;
@@ -6982,7 +6985,7 @@ footer .icon-style2 {
       text-decoration: none;
       font-size: 16px;
       margin: 4px 2px;
-      width: 50%;
+      width: 30%;
       padding: 6px 0;
       border-radius: 0; }
     .join-us .contact-form .btn-active {
