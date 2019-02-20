@@ -1,13 +1,16 @@
 .news-style{
+    width:100%;
     background-color: $lightcolor;
     padding-top:2rem;
-    padding-bottom:2rem;
+    
     .box-style{
-        width: 430px;
-        background-color:white;
-        border-radius:12px;
-        position:relative;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+        position: relative;
         overflow: hidden;
+        height: 45%;
+        padding-bottom:3rem;
         img{
             max-width:100%;
             border-radius: 12px 12px 0px 0px;

@@ -1,27 +1,20 @@
-.join-us{
+.join-us {
     background-color: $lightcolor;
-    width:100%;
-    
-    
-    .photo-height{
-        height:60%;
-        margin-top:10rem;
+    width: 100%;
+    .photo-height {
+        height: 60%;
+        margin-top: 10rem;
     }
-   
-    .main-header{
+    .main-header {
         font-family: "lato";
         font-weight: 600;
         font-size: 20px;
         color: $redcolor;
-        
-        
     }
-    hr{
-        
+    hr {
         width: 15%;
-  border-color: $redcolor;
-  margin-bottom: 2rem;
- 
+        border-color: $redcolor;
+        margin-bottom: 2rem;
     }
     .contact-form {
         .title {
@@ -29,15 +22,9 @@
             font-family: lato;
             text-align: center;
         }
-       
         .contactform {
-            
             background-color: transparent;
-            
-            
-            
-           width:100%;
-            
+            width: 100%;
         }
         .subbutton {
             background-color: $redcolor;
@@ -55,14 +42,11 @@
             margin: 3rem 0 0rem;
             padding-top: 1.8rem;
         }
-        
         .group {
             position: relative;
             margin-bottom: 35px;
             background-color: white;
-            border:none;
-            
-            
+            border: none;
         }
         input,
         textarea {
@@ -70,10 +54,7 @@
             padding: 10px 10px 10px 5px;
             display: block;
             width: 100%;
-            border:none;
-           
-            
-            
+            border: none;
         }
         input:focus,
         textarea:focus {
