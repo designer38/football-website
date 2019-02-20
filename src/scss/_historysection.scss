@@ -1,29 +1,19 @@
 .history-section {
-    width:100%;
+    width: 100%;
     background-color: $lightcolor;
     text-align: center;
-    h2 {
-           
-        
+    h2.no-span {
+        font-size: 30px;
+        font-family: "lato";
+        font-weight: 500;
+        color: $redcolor;
         
         text-align: center;
-        text-transform: uppercase;
-        font-family: "lato";
-        font-weight: 700;
-        color: $redcolor;
-        font-size: 30px;
         
     }
-    h2:before { right:10%; }
-    h2:after { right:10%; }
-    .history-box{
-        
-       padding:5rem;
-        background-color: white;
-        
-       
-       
-        // h2.no-span {
+    .history-box {
+        padding: 5rem;
+        background-color: white; // h2.no-span {
         //     display: table;
         //     white-space: nowrap;
         //     &:before, &:after {
@@ -48,19 +38,10 @@
         //       top: 0.5em;
         //       width: 45%;
         //     }
-           
         // }
-        
-            
-            
-            .history-content {
-                text-align: center;
-                
-         
+        .history-content {
+            text-align: center;
             border: solid $redcolor 2px;
-            
-            }
+        }
     }
-   
-    
 }

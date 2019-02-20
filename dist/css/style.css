@@ -6405,17 +6405,21 @@ footer {
       padding-left: 7.5rem; }
 
 .about {
-  width: 100%; }
+  width: 100%;
+  background-color: white; }
+  .about .carsoul-text-style {
+    font-size: 30px;
+    font-family: "lato";
+    font-weight: "regular";
+    color: white; }
   .about .carousel-control-prev-icon {
     background-image: url("left-arrow-chevron (2).png");
-    background-color: #C92127;
     padding: 2rem;
     margin-bottom: 19rem;
     margin-left: 2rem; }
   .about .carousel-control-next-icon {
     margin-bottom: 19rem;
     background-image: url("right-chevron.png");
-    background-color: #C92127;
     padding: 2rem; }
   .about .carousel-control-prev-icon, .about .carousel-control-next-icon {
     width: 20px;
@@ -6426,7 +6430,9 @@ footer {
     background-color: #C92127;
     padding-right: 30px;
     padding-left: 109px;
-    padding-top: 5rem; }
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white; }
     .about .right-section figure {
       text-align: center;
       font-weight: bold;
@@ -6453,17 +6459,12 @@ footer {
   width: 100%;
   background-color: #EAEAEA;
   text-align: center; }
-  .history-section h2 {
-    text-align: center;
-    text-transform: uppercase;
+  .history-section h2.no-span {
+    font-size: 30px;
     font-family: "lato";
-    font-weight: 700;
+    font-weight: 500;
     color: #C92127;
-    font-size: 30px; }
-  .history-section h2:before {
-    right: 10%; }
-  .history-section h2:after {
-    right: 10%; }
+    text-align: center; }
   .history-section .history-box {
     padding: 5rem;
     background-color: white; }
@@ -7113,3 +7114,16 @@ footer {
     color: grey;
     margin-left: 7rem;
     text-align: center; }
+
+nav .navbar-toggle {
+  margin-top: 15px; }
+
+@media (max-width: 768px) {
+  nav .navbar-toggle {
+    margin-top: 10px;
+    background-color: #C92127; }
+  nav .navbar-toggle:hover {
+    background-color: #C92127; } }
+
+nav .navbar-toggle .icon-bar {
+  background: #fff; }

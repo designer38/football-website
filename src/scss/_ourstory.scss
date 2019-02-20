@@ -37,9 +37,18 @@
 
 .about{
     width:100%;
+    background-color:white;
+    .carsoul-text-style{
+        font-size: 30px;
+        font-family: "lato";
+        font-weight: "regular";
+        
+        color: white;
+       
+    }
     .carousel-control-prev-icon {
         background-image: url("left-arrow-chevron (2).png");
-        background-color:$redcolor;
+      
         padding:2rem;
         margin-bottom: 19rem;
         margin-left:2rem;
@@ -47,7 +56,7 @@
     .carousel-control-next-icon {
         margin-bottom: 19rem;
         background-image: url("right-chevron.png");
-        background-color:$redcolor;
+        
         padding:2rem;
     }
     .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -62,7 +71,9 @@
     background-color: #C92127;
     padding-right: 30px;
     padding-left: 109px;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:white;
     
         figure {
            
