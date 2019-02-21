@@ -1,6 +1,14 @@
-.history-section {
+body {
+    position: relative;
+    border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  .history-section {
     width: 100%;
-    background-color: $lightcolor;
+    
     text-align: center;
     h2.no-span {
         font-size: 30px;
@@ -13,6 +21,7 @@
     }
     .history-box {
         padding: 5rem;
+        
         background-color: white; // h2.no-span {
         //     display: table;
         //     white-space: nowrap;
@@ -44,4 +53,5 @@
             border: solid $redcolor 2px;
         }
     }
+}
 }

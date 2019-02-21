@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   
-  
-  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
@@ -20,6 +21,8 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <!---beginning of top section-->
   <section class="top_section ">
     <img class="left_logo" src="imgs/logo.png">
@@ -36,6 +39,8 @@
         <a href="OUR_STORY.html" class="link-margin nav-link active wow zoomInDown">OUR STORY</a>
 
         <a href="CONTACT_US.html" class=" link-margin nav-link active wow zoomInDown">CONTACT US</a>
+        <a href="join-us.html" class=" link-margin nav-link active wow zoomInDown">JOIN US</a>
+
         <a href="LOG_IN.html" class=" link-margin nav-link active wow zoomInDown">LOG IN</a>
       </div>
     </nav>
@@ -161,6 +166,22 @@
     </div>
 
   </footer>
+  <section class="copy-right">
+      <div class="container ">
+          <div class="row">
+            <div class="col-sm-6 mt-2">
+  <p>2019@FootballGleam.com</p>
+            </div>
+            <div class="col-sm-6 mt-2  social-icons">
+                <a href="#"><i class="fab fa-facebook-f margin-social"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in  margin-social"></i></a>
+                <a href="#"><i class="fab fa-twitter  margin-social"></i></a>
+                <a href="#"><i class="fab fa-instagram  margin-social"></i></a>
+              </div>
+          </div>
+      </div>
+      
+    </section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -180,6 +201,24 @@
   <script>
     new WOW().init();
   </script>
+  <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+          </script>
 </body>
 
 </html>

@@ -1,4 +1,12 @@
-.join-us {
+body {
+    position: relative;
+    border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  .join-us {
     background-color: $lightcolor;
     width: 100%;
     .photo-height {
@@ -169,4 +177,5 @@
             }
         }
     }
+}
 }
