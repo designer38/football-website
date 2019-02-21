@@ -6068,7 +6068,8 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-family: sans-serif; }
   body .homelink {
     margin-left: 5rem; }
   body .top_section {
@@ -6091,9 +6092,9 @@ body {
     border-top: solid #EAEAEA 2px;
     width: 83%; }
     body nav .home-margin {
-      margin-left: 3rem; }
+      margin-left: 1.5rem; }
     body nav .link-margin {
-      margin-left: 3rem; }
+      margin-left: 2rem; }
     body nav a {
       font-family: "lato";
       font-weight: "regular";
